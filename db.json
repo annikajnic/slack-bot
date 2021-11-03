@@ -1,0 +1,28 @@
+{
+    "data":[
+        {
+            "keyword": "help",
+            "question": "How does this work?",
+            "answer": "You can ask me three commands to edit or show the Yolk Playlist. You can Add, Delete and list. If you want to see more ask to see the doc."
+        },{
+            "keyword": "help",
+            "question": "It is not finding the correct song?",
+            "answer": "If it is not finding the right song be more specific like adding the Artist's name. Ex Add 9 to 5 Dolly parton. "
+        },
+        {
+            "keyword": "help",
+            "question": "Can I see the songs on the playlist?",
+            "answer": "The bot will respond to 'list' anywhere in your sentence. Ex. List "
+        }
+
+    ],
+    "doc":[
+        "*Help or /help*: will return a list of FAQs",
+        "*Doc or Documentation*: will return a list of comands",
+        "*Hey*: a greeting message",
+        "*/welcome*: a greeting message",
+        "*List*: this will list the current songs on the Yolk playlist",
+        "*Add 'song name'*: Add will add a song to the Yolk playlist",
+        "*Delete 'song name'*: Delete will remove a song from the Yolk playlist"
+       ]
+}

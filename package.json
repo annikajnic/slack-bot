@@ -1,0 +1,30 @@
+{
+  "name": "slack_bot",
+  "version": "1.0.0",
+  "description": "Slack bot that adds a song to Spotify",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Annika Nicol",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.7.0",
+    "axios": "^0.24.0",
+    "envdot": "^0.0.3",
+    "express": "^4.17.1",
+    "google-spreadsheet": "^3.1.15",
+    "jquery": "^3.6.0",
+    "qs": "^6.10.1",
+    "querystring": "^0.2.1",
+    "request": "^2.88.2",
+    "sanitize": "^2.1.0",
+    "slackbots": "^1.2.0",
+    "spotify-web-api-node": "^5.0.2",
+    "yarn": "^1.22.17"
+  },
+  "devDependencies": {
+    "serverless": "^2.64.1",
+    "serverless-offline": "^8.2.0"
+  }
+}
