@@ -1,7 +1,4 @@
 # slack-bot
-Slack bot that connects to the Spotify API and outputs the convo to google sheets using AWS
-
-
 This project uses Slack BOLT to create and deploy the Slack bot to an AWS serverless server and forms the slack bot convo to google sheets
 
 Resources Used
